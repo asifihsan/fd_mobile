@@ -13,7 +13,7 @@ class App extends StatelessWidget {
       home: SafeArea(
         child:Scaffold(
           appBar: AppBar(
-            backgroundColor: Colors.amber,
+            backgroundColor:  const Color.fromARGB(255, 170, 204, 255),
             title: Align(
               alignment: Alignment.centerLeft,
               child: Text("Feedback Hub")),

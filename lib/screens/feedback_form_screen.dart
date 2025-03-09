@@ -87,7 +87,9 @@ class _FeedbackFormScreenState extends State<FeedbackFormScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text("Give Feedback")),
+      appBar: AppBar(title: const Text("Give Feedback"),
+      backgroundColor:  const Color.fromARGB(255, 170, 204, 255),),
+      backgroundColor:  const Color.fromARGB(255, 216, 230, 252),
       body: SingleChildScrollView(
         padding: const EdgeInsets.all(16.0),
         child: Center(
@@ -137,7 +139,7 @@ class _FeedbackFormScreenState extends State<FeedbackFormScreen> {
                             icon: const Icon(Icons.send, color: Colors.white),
                             label: const Text("Submit Feedback", style: TextStyle(fontSize: 16, color: Colors.white)),
                             style: ElevatedButton.styleFrom(
-                              backgroundColor: Colors.green,
+                              backgroundColor:  const Color.fromARGB(255, 90, 149, 244),
                               padding: const EdgeInsets.symmetric(horizontal: 40, vertical: 14),
                               shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(10)),
                             ),
@@ -157,7 +159,7 @@ class _FeedbackFormScreenState extends State<FeedbackFormScreen> {
       labelText: label,
       prefixIcon: Icon(icon, color: Colors.blueGrey),
       filled: true,
-      fillColor: Colors.grey[100],
+      fillColor:  const Color.fromARGB(255, 224, 237, 255),
       border: OutlineInputBorder(borderRadius: BorderRadius.circular(10)),
       focusedBorder: OutlineInputBorder(
         borderSide: const BorderSide(color: Colors.blue, width: 2),
